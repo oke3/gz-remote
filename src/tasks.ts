@@ -32,8 +32,15 @@ export function escapeNestedQuotes(value: string): string {
  */
 export function createTaskCommand(options: CreateTaskOptions): string {
   const startTime = options.startTime ?? TASK_START_TIME;
-  if (!/^\d{1,2}:\d{2}$/.test(startTime)) {
-    throw new UsageError(`invalid start time "${startTime}": expected HH:MM`);
+  const timeMatch = /^(\d{1,2}):(\d{2})$/.exec(startTime);
+  if (
+    timeMatch === null ||
+    timeMatch[1] === undefined ||
+    timeMatch[2] === undefined ||
+    Number(timeMatch[1]) > 23 ||
+    Number(timeMatch[2]) > 59
+  ) {
+    throw new UsageError(`invalid start time "${startTime}": expected HH:MM (00-23:00-59)`);
   }
   const tr = `"cmd /c ${escapeNestedQuotes(options.innerAction)}"`;
   return `schtasks /create /f /tn ${options.taskName} /tr ${tr} /sc once /st ${startTime}`;
