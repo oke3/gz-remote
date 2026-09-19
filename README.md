@@ -227,6 +227,19 @@ PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
+## Enterprise Support
+
+Need this customized for your infrastructure? We offer:
+
+- **Integration consulting** — Wire gz-remote into your remote development setup
+- **Custom configuration** — Task-specific rules, models, and workflows for your team
+- **Managed deployment** — We host and maintain your instance
+- **Training workshops** — Hands-on sessions for your engineering team
+
+[Book a 30-min call](https://www.grndxero.com/brief) · [See pricing](https://www.grndxero.com/pricing)
+
+---
+
 MIT — Ground Zero LLC
 
 ---
