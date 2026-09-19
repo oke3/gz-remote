@@ -28,7 +28,7 @@ Full console output.
 
 - Node version (`node -v`):
 - OS:
-- opencode-remote version:
+- gz-remote version:
 
 **Additional context**
 Anything else that helps reproduce.

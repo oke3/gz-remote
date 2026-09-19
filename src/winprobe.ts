@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Windows environment probe: a PowerShell script template whose output is a set
  * of OCR_* key=value markers, plus a tolerant parser for that output.

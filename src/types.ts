@@ -1,5 +1,7 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
- * Shared types + defaults for opencode-remote (`ocr`).
+ * Shared types + defaults for gz-remote (`ocr`).
  * Zero runtime dependencies by contract.
  */
 

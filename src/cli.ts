@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 #!/usr/bin/env node
 /**
  * ocr — drive opencode instances on REMOTE machines over SSH.

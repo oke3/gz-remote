@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * PowerShell EncodedCommand transport: UTF-16LE bytes wrapped in base64.
  * This is how arbitrary multi-line scripts travel through `ssh <host> powershell ...`

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Pure schtasks command builders + a parser for `schtasks /fo LIST` output.
  * Everything here is string-in/string-out so it can be tested without ssh.

@@ -1,9 +1,11 @@
-# opencode-remote
+# gz-remote
 
-[![CI](https://github.com/oke3/opencode-remote/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/opencode-remote/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/opencode-remote.svg)](https://www.npmjs.com/package/opencode-remote)
+> Built by [Ground Zero LLC](https://github.com/oke3) — AI infrastructure for the agentic age.
+
+[![CI](https://github.com/oke3/gz-remote/actions/workflows/ci.yml/badge.svg)](https://github.com/oke3/gz-remote/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/gz-remote.svg)](https://www.npmjs.com/package/gz-remote)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Node](https://img.shields.io/node/v/opencode-remote.svg)](package.json)
+[![Node](https://img.shields.io/node/v/gz-remote.svg)](package.json)
 
 Zero-dependency CLI + library for driving [opencode](https://github.com/sst/opencode) instances
 on **remote machines over SSH** — detached job launches on Windows, a serve-API control plane,
@@ -48,7 +50,7 @@ Requires Node.js >= 22. SSH client available on `PATH`; key-based auth to the re
 must already work (BatchMode — no password prompts).
 
 ```sh
-npm install -g opencode-remote
+npm install -g gz-remote
 ```
 
 From a checkout:
@@ -140,11 +142,11 @@ You monitor from afar with `ocr status`; the agent commits locally at milestones
 Every CLI capability is importable — build your own orchestration on the primitives:
 
 ```ts
-import { toEncodedCommand } from "opencode-remote"; // PS script -> base64 UTF-16LE
-import { buildSshArgs, runSsh } from "opencode-remote"; // hardened ssh exec
-import { renderLauncher } from "opencode-remote"; // launcher .ps1 generation (pure fn)
-import { buildCreateTaskArgs, parseTaskStatus } from "opencode-remote"; // schtasks
-import { listSessions, postPrompt } from "opencode-remote"; // serve-API client
+import { toEncodedCommand } from "gz-remote"; // PS script -> base64 UTF-16LE
+import { buildSshArgs, runSsh } from "gz-remote"; // hardened ssh exec
+import { renderLauncher } from "gz-remote"; // launcher .ps1 generation (pure fn)
+import { buildCreateTaskArgs, parseTaskStatus } from "gz-remote"; // schtasks
+import { listSessions, postPrompt } from "gz-remote"; // serve-API client
 ```
 
 All argument builders are pure functions (fully unit-tested); `runSsh` always injects

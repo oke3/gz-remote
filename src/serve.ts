@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * Minimal zero-dependency client for the opencode serve API (global fetch).
  * `listSessions` hits GET /api/session; `postPrompt` posts

@@ -1,4 +1,4 @@
-# Contributing to opencode-remote
+# Contributing to gz-remote
 
 Thanks for helping improve remote agent orchestration!
 
@@ -9,8 +9,8 @@ type-stripping) and npm. No SSH access or remote hosts needed — the entire tes
 pure command construction and output parsing.
 
 ```sh
-git clone https://github.com/oke3/opencode-remote.git
-cd opencode-remote
+git clone https://github.com/oke3/gz-remote.git
+cd gz-remote
 npm install
 npm test
 ```

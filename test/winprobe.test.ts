@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import { parseProbeOutput, renderProbeScript } from "../src/winprobe.ts";

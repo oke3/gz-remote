@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * The proven job recipe as data: `renderLauncher` is a pure function producing
  * the remote .ps1 that:

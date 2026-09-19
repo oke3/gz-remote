@@ -1,5 +1,5 @@
 {
-  "name": "opencode-remote",
+  "name": "gz-remote",
   "version": "0.1.0",
   "description": "Zero-dependency CLI + library for driving opencode instances on remote machines over SSH.",
   "license": "MIT",
@@ -24,15 +24,16 @@
     "@types/node": "^24.0.0",
     "typescript": "^5.7.0"
   },
-  "author": {
+  "author": "Ground Zero LLC <hello@ground-zero.dev>",
+  "publisher": "Ground Zero LLC",
     "name": "oke3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oke3/opencode-remote.git"
+    "url": "git+https://github.com/oke3/gz-remote.git"
   },
-  "homepage": "https://github.com/oke3/opencode-remote#readme",
+  "homepage": "https://github.com/oke3/gz-remote#readme",
   "bugs": {
-    "url": "https://github.com/oke3/opencode-remote/issues"
+    "url": "https://github.com/oke3/gz-remote/issues"
   }
 }

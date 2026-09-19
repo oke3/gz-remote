@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Ground Zero LLC. All rights reserved.
+
 /**
  * All remote access goes through `ssh <host> <remoteCmd>` using child_process.
  * BatchMode + StrictHostKeyChecking are ALWAYS injected; a configurable timeout
