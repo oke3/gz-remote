@@ -240,6 +240,8 @@ Need this customized for your infrastructure? We offer:
 
 ---
 
+## License
+
 MIT — Ground Zero LLC
 
 ---
