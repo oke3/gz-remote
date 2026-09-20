@@ -216,6 +216,7 @@ purely — no network, no `$HOME` access.
 | [gz-sessions](https://github.com/oke3/gz-sessions) | Persistent cross-session memory for AI agents |
 | [gz-codemap](https://github.com/oke3/gz-codemap) | Scan codebases → auto-generate project config |
 | [gz-modelrouter](https://github.com/oke3/gz-modelrouter) | Intelligent LLM cost router — save 40-70% on bills |
+| [gz-gateway](https://github.com/oke3/gz-gateway) | OpenAI-compatible AI gateway — rate limiting, caching, failover, cost tracking |
 | [gz-bench](https://github.com/oke3/gz-bench) | Standardized benchmark harness for AI coding agents |
 | [gz-context-engine](https://github.com/oke3/gz-context-engine) | Production-grade RAG context engine |
 
